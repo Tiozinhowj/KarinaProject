@@ -243,42 +243,26 @@ body {
     font-family: 'Noto Sans JP', sans-serif;
     font-size:large;
     text-align: justify;
+    max-width: 100%;
     width: 450px;
-    position: absolute;
-    top: 40%;
-    left: 29%;
-    transform: translate(-50%, -50%);
 }
 
-
-.container2 {
-    width: 100%;
-}
 
 .box2 {
     font-family: 'Noto Sans JP', sans-serif;
     font-size:large;
     text-align: justify;
+    max-width: 100%;
     width: 450px;
-    position: absolute;
-    top: 90%;
-    left: 75%;
-    transform: translate(-50%, -50%);
 }
 
-.container3 {
-    width: 100%;
-}
 
 .box3 {
     font-family: 'Noto Sans JP', sans-serif;
     font-size:large;
     text-align: justify;
+    max-width: 100%;
     width: 450px;
-    position: absolute;
-    top: 140%;
-    left: 29%;
-    transform: translate(-50%, -50%);
 }
 
 
@@ -289,18 +273,6 @@ section h2 {
 }
 
 
-.produtospicture {
-    display: flex;
-    max-width: 100%;
-    height: 350px;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 70%;
-    transform: translate(-50%, -50%);
-    border-radius: 5px;
-}
-
 .logosimg {
     max-width: 100%;
     width: 100px;
@@ -308,53 +280,84 @@ section h2 {
 }
 
 .indeximg1 {
-    display: flex;
     max-width: 100%;
     height: 340px;
     margin: 0;
-    position: absolute;
-    top: 40%;
-    left: 75%;
-    transform: translate(-50%, -50%);
     border-radius: 5px;
 }
 
 .indeximg2 {
-    display: flex;
     max-width: 100%;
-    height: 340px;
+    height: 320px;
     margin: 0;
-    position: absolute;
-    top: 90%;
-    left: 29%;
-    transform: translate(-50%, -50%);
     border-radius: 5px;
 }
 
 .indeximg3 {
-    display: flex;
     max-width: 100%;
     height: 340px;
     margin: 0;
-    position: absolute;
-    top: 140%;
-    left: 75%;
-    transform: translate(-50%, -50%);
     border-radius: 5px;
 }
 
-
-.container7 {
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-    gap: 5rem; 
-    margin-top: 100px;
+.container1 {
+    width: 100%;
     position: absolute;
-    top: 165%;
-    left: 30%;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
     padding: 20px;
 }
+
+.container2 {
+    width: 100%;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    padding: 20px;
+}
+
+.container3 {
+    width: 100%;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    padding: 20px;
+}
+
+.container4 {
+    position: absolute;
+    top: 210%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    padding: 20px;
+}
+
 
 .indeximg {
     width: auto;
@@ -394,9 +397,6 @@ section h2 {
     visibility: hidden;
 }
 
-.box1 .box2 .box3 {
-    visibility: hidden;
-}
 
 footer {
     background-color: #EEF1F6;
@@ -406,7 +406,7 @@ footer {
     position: absolute;
     bottom: 0px;
     width: 100%;
-    top: 250%;
+    top: 280%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -423,7 +423,7 @@ footer {
     justify-content: center;
     margin: 10px;
     color: #b9afaf;
-    font-size: 8px;
+    font-size: large;
 }
 
 .contact h1 {
@@ -431,13 +431,13 @@ footer {
 }
 
 .separator {
-    height: 20px;
+    height: 10px;
 }
 
 .register {
     color: #b9afaf;
     text-align: center;
-    font-size: 8px;
+    font-size: large;
 }
 
 .socialicons a {
@@ -462,10 +462,6 @@ footer {
 .socialicons a:hover i {
     color: black;
     transition: 0.5s;
-}
-
-.address {
-    text-align: center;
 }
 
 @media(max-width: 1120px) {
@@ -510,46 +506,48 @@ footer {
 
     .indeximg1 {
         height: 200px;
-        top: 40%;
-        left: 75%;
     }
 
     .box1 {
         width: 300px;
-        top: 55%;
+        height: 500px;
     }
 
     .indeximg2 {
         height: 180px;
-        top: 120%;
-        left: 75%;
     }
 
     .box2 {
         width: 300px;
-        top: 140%;
-        left: 29%;
     }
 
     .indeximg3 {
         height: 200px;
-        top: 220%;
-        left: 75%;
     }
 
     .box3 {
         width: 300px;
-        top: 220%;
+    }
+    .container1{
+        top:30%;
     }
 
-    .container7{
+    .container2{
+        top:80%;
+    }
+
+    .container3{
+        top:130%;
+    }
+
+    .container4{
         flex-direction: column;
         align-items: center;
-        top:240%;
+        top:180%;
     }
 
     footer{
-        top: 350%;
+        top: 270%;
     }
 }
 
@@ -566,8 +564,6 @@ footer {
 
     .box1 {
         width: 450px;
-        top: 40%;
-        left: 50%;
     }
 
     .indeximg2 {
@@ -576,8 +572,6 @@ footer {
 
     .box2 {
         width: 450px;
-        top: 100%;
-        left: 50%;
     }
 
     .indeximg3 {
@@ -586,22 +580,31 @@ footer {
 
     .box3 {
         width: 450px;
-        top: 155%;
-        left: 50%;
     }
 
-    .indeximg {
-        top: 210%;
-        left: 50%;
+    .container1{
+        top:20%;
     }
 
+    .container2{
+        top:60%;
+    }
 
-    .box8 {
-        top: 240%;
-        left: 72%;
+    .container3{
+        top:100%;
+    }
+
+    .container4{
+        flex-direction: column;
+        align-items: center;
+        top:140%;
+    }
+
+    .indeximg{
+        height: 250px;
     }
 
     footer{
-        top: 260%;
+        top: 210%;
     }
 }

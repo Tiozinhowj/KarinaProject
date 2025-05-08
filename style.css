@@ -398,7 +398,7 @@ footer {
     justify-content: center;
     margin: 10px;
     color: #b9afaf;
-    font-size: 8px;
+    font-size: large;
 }
 
 .contact h1 {
@@ -412,7 +412,7 @@ footer {
 .register {
     color: #b9afaf;
     text-align: center;
-    font-size: 8px;
+    font-size: large;
 }
 
 .socialicons a {

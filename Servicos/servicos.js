@@ -18,10 +18,7 @@ menuicon.onclick = function () {
 
  window.sr = ScrollReveal({ reset: false});
 
-sr.reveal('.indeximg1' ,{duration: 6000} )
-sr.reveal('.box2' ,{duration: 2500})
-sr.reveal('.indeximg2' ,{duration: 6000})
-sr.reveal('.box3' ,{duration: 2500})
-sr.reveal('indeximg3' ,{duration: 6000})
-sr.reveal('.box8' ,{duration: 2500})
+sr.reveal('.container1' ,{duration: 6000} )
+sr.reveal('.container2' ,{duration: 6000})
+sr.reveal('container3' ,{duration: 6000})
 
