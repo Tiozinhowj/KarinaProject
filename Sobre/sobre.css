@@ -385,10 +385,6 @@ footer {
     transition: 0.5s;
 }
 
-.address {
-    text-align: center;
-}
-
 @media (max-width: 1200px) {
 
     .box{

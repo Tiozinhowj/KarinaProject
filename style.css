@@ -233,143 +233,123 @@ body {
 
 /* animação ao clicar no login */
 
-.container {
-    width: 100%;
-    height: 100vh;
-}
-
-.box {
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size: large;
-    text-align: justify;
-    width: 500px;
-    width: 325px;
+.container1 {
     position: absolute;
     top: 50%;
-    left: 70%;
-    color: #122126;
+    left: 50%;
     transform: translate(-50%, -50%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 10rem; 
+    margin-top: 100px;
+    padding: 20px;
 }
 
-
-section h2 {
-    font-size: 42px;
-    text-align: left;
+.box1 {
     font-family: 'Noto Sans JP', sans-serif;
+    font-size: large;
+    text-align: left;
+    max-width: 100%;
+    width: 700px;
 }
 
-.container2 {
-    width: 100%;
-    height: 100vh;
-}
 
 .indeximg {
-    display: flex;
     max-width: 100%;
     height: 450px;
     margin: 0;
+    border-radius: 5px;
+}
+
+
+.container2 {
     position: absolute;
-    top: 50%;
-    left: 28%;
+    top: 130%;
+    left: 50%;
     transform: translate(-50%, -50%);
+
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: center; 
+    gap: 10rem; 
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.box2 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: large;
+    text-align: left;
+    max-width: 100%;
+    width: 800px;
+}
+
+.indeximg2 {
+    max-width: 100%;
+    height: 400px;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.container3 {
+    position: absolute;
+    top: 210%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: center; 
+    gap: 10rem; 
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.box3 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: large;
+    text-align: left;
+    max-width: 100%;
+    width: 800px;
+}
+
+.indeximg3 {
+    max-width: 100%;
+    height: 400px;
+    margin: 0;
     border-radius: 5px;
 }
 
 .container4 {
-    width: 100%;
-    height: 100vh;
-}
-
-.container5 {
-    width: 100%;
-    height: 100vh;
-}
-
-.box5 {
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size: large;
-    text-align: justify;
-    width: 450px;
-    width: 450px;
     position: absolute;
-    top: 118%;
-    left: 30%;
-    color: #122126;
+    top: 290%;
+    left: 50%;
     transform: translate(-50%, -50%);
-}
 
-
-.container6 {
-    width: 100%;
-    height: 100vh;
-}
-
-.box6 {
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size: large;
-    text-align: justify;
-    width: 450px;
-    width: 450px;
-    position: absolute;
-    top: 170%;
-    left: 70%;
-    color: #122126;
-    transform: translate(-50%, -50%);
-    
-}
-
-.box7 {
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size: large;
-    text-align: justify;
-    width: 450px;
-    width: 450px;
-    position: absolute;
-    top: 210%;
-    left: 29%;
-    color: #122126;
-    transform: translate(-50%, -50%);
-    
-}
-
-.container7 {
-    width: 100%;
-    height: 100vh;
-}
-
-.indeximg2 {
     display: flex;
-    max-width: 100%;
-    height: 400px;
-    margin: 0;
-    position: absolute;
-    top: 118%;
-    left: 70%;
-    transform: translate(-50%, -50%);
-    border-radius: 5px;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: center; 
+    gap: 5rem; 
+    margin-top: 100px;
+    padding: 20px;
 }
 
-.container8 {
+.box4 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: large;
+    text-align: left;
     max-width: 100%;
-    height: 800px;
+    width: 800px;
 }
 
-.indeximg3 {
-    display: flex;
+.maps{
     max-width: 100%;
-    height: 400px;
-    margin: 0;
-    position: absolute;
-    top: 170%;
-    left: 28%;
-    transform: translate(-50%, -50%);
-    border-radius: 5px;
-}
-
-.maps  {
-    position: absolute;
-    top: 200%;
-    left: 55%;
+    width: 900px;
 }
 
 
@@ -381,7 +361,7 @@ footer {
     position: absolute;
     bottom: 0px;
     width: 100%;
-    top: 285%;
+    top: 360%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -406,7 +386,7 @@ footer {
 }
 
 .separator {
-    height: 20px;
+    height: 10px;
 }
 
 .register {
@@ -430,66 +410,27 @@ footer {
 }
 
 .socialicons a:hover {
-    background-color: #F2F2F2;
+    background-color: #d1c7c7;
     transition: 0.5s;
 }
 
 .socialicons a:hover i {
-    color: #122126;
+    color: black;
     transition: 0.5s;
 }
 
-.address {
-    text-align: center;
-}
 
-
-@media (max-width: 1200px) {
-
-
-    .indeximg2 {
-        position: absolute;
-        top: 118%;
-        left: 72%;
-        transform: translate(-50%, -50%);
-        border-radius: 5px;
-    }
-}
 
 @media (max-width: 1020px) {
 
-    .indeximg {
-        position: absolute;
-        top: 50%;
-        left: 25%;
-        transform: translate(-50%, -50%);
-        border-radius: 5px;
+    .container2{
+        gap: 4em;
     }
 
-    .box {
-        position: absolute;
-        top: 50%;
-        left: 75%;
-        transform: translate(-50%, -50%);
-        border-radius: 5px;
+    .container3{
+        gap: 4em;
     }
 
-    .indeximg2 {
-        height: 350px;
-        position: absolute;
-        top: 118%;
-        left: 75%;
-        transform: translate(-50%, -50%);
-        border-radius: 5px;
-    }
-
-    .indeximg3 {
-        height: 350px;
-        top: 170%;
-        left: 25%;
-        transform: translate(-50%, -50%);
-        border-radius: 5px;
-    }
 }
 
 /* Menu Hamburguer */
@@ -511,56 +452,50 @@ footer {
         display: block;
     }
 
-    .indeximg {
-        height: 300px;
-        top: 50%;
-        left: 50%;
+    .container1{
+        gap: 3em
     }
 
-    .box {
-        top: 80%;
-        left: 50%;
+    .box1{
+        width: 600px;
     }
 
-    .indeximg2 {
-        height: 300px;
-        top: 118%;
-        left: 90%;
+    .indeximg{
+        height: 400px;
     }
 
-    .box5 {
-        top: 118%;
-        left: 40%;
+    .container2{
+        gap: 3em;
     }
 
-    .indeximg3 {
-        height: 250px;
-        top: 170%;
-        left: 90%;
-        transform: translate(-50%, -50%);
-        border-radius: 5px;
+    .box2{
+        width: 600px;
     }
 
-    .box6 {
-        top: 170%;
-        left: 40%;
+    .indeximg2{
+        height: 350px;
     }
 
-    .box7 {
-        left: 50%;
+    .container3{
+        gap: 3em
     }
 
-    .maps {
-        top: 220%;
-        left: 20%;
+    .box3{
+        width: 600px;
     }
 
-    .container3 img {
-        max-width: 100%;
-        height: 40px;
-        margin: 0 10px;
-        border-radius: 5px;
+    .indeximg3{
+        height: 350px;
     }
+
+    .box4{
+        width: 500px;
+    }
+
+    .maps{
+        width: 500px;
+    }
+    
 }
 
 @media (max-width: 692px) {
@@ -569,52 +504,56 @@ footer {
         width: unset;
     }
 
-    .indeximg2 {
+    .container1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .box1{
+        width: 400px;
+    }
+
+    .indeximg{
+        height: 350px;
+    }
+
+    .container2{
+        top: 110%;
+    }
+
+    .box2{
+        width: 400px;
+    }
+
+    .indeximg2{
         display: none;
     }
 
-    .indeximg3 {
+    .container3{
+        top: 150%;
+    }
+
+    .box3{
+        width: 400px;
+    }
+
+    .indeximg3{
         display: none;
     }
 
-    .box5 {
-        top: 118%;
-        left: 50%;
+    .container4{
+        top: 220%;
+        flex-direction: column-reverse;
+        align-items: center;
     }
 
-    .box6 {
-        top: 170%;
-        left: 50%;
-    }
-    
-    .maps{
-        left: 2%;
+    .box4{
+        width: 400px;
     }
 
-    .container3title {
-        display: flex;
-        position: absolute;
-        top: 200%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        font-size: 8px;
-        text-align: left;
-        font-family: 'Noto Sans JP', sans-serif;
-    }
-    
-    .container3 {
-        position: absolute;
-        top: 210%;
-        left: 55%;
-        transform: translate(-50%, -50%);
+    footer{
+        top: 290%;
     }
 
-    .container3 img {
-        max-width: 100%;
-        height: 23px;
-        margin: 0 10px;
-        border-radius: 5px;
-    }
 }
 
 
