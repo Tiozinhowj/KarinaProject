@@ -1,5 +1,4 @@
 function WhatsApp() {
-    // Duplicando as barras invertidas
     location.href = "https://wa.me//5527999709637";
 }
 
@@ -20,5 +19,6 @@ menuicon.onclick = function () {
 
 sr.reveal('.container1' ,{duration: 6000} )
 sr.reveal('.container2' ,{duration: 6000})
-sr.reveal('container3' ,{duration: 6000})
+sr.reveal('.container3' ,{duration: 6000})
+sr.reveal('.container4' ,{duration: 5000})
 

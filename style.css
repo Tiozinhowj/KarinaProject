@@ -107,10 +107,10 @@ body {
 
 
 .navigation a {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Arvo", serif;
     top: 100%;
     position: relative;
-    font-size: 1.1em;
+    font-size: 1.3em;
     color: #A6823F;
     text-decoration: none;
     font-weight: 500;
@@ -118,6 +118,7 @@ body {
 }
 
 .navigationMENU {
+
     display: none;
     position: absolute;
     right: 2.5rem;
@@ -138,7 +139,7 @@ body {
 
 .navigationMENU a {
     display: block; 
-    font-family: 'Poppins', sans-serif;
+    font-family:"Ancizar Serif", serif;
     font-size: 22px; 
     margin-bottom: 20px;
     text-align: center;
@@ -180,7 +181,7 @@ body {
 /* animação ao clicar no nav bar */
 
 .navigation .btlogin {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Arvo", serif;
     width: 170px; 
     height: 50px;
     background-color: #A6783F;
@@ -209,6 +210,7 @@ body {
 
 
 .navigationMENU .btlogin2 {
+    font-family: "Arvo", serif;
     display: block;
     text-align: center;
     position: absolute;
@@ -247,9 +249,11 @@ body {
     padding: 20px;
 }
 
+
+
 .box1 {
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size: large;
+    font-family: "Cal Sans", sans-serif;
+    font-size: xx-large;
     text-align: left;
     max-width: 100%;
     width: 700px;
@@ -280,11 +284,15 @@ body {
 }
 
 .box2 {
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size: large;
+    font-family: "Ancizar Sans", sans-serif;
+    font-size: 1.3em;
     text-align: left;
     max-width: 100%;
     width: 800px;
+}
+
+.box2 h1 {
+    font-family: "Cal Sans", sans-serif;
 }
 
 .indeximg2 {
@@ -310,11 +318,15 @@ body {
 }
 
 .box3 {
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size: large;
+    font-family: "Ancizar Sans", sans-serif;
+    font-size: 1.3em;
     text-align: left;
     max-width: 100%;
     width: 800px;
+}
+
+.box3 h1 {
+    font-family: "Cal Sans", sans-serif;
 }
 
 .indeximg3 {
@@ -340,11 +352,15 @@ body {
 }
 
 .box4 {
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size: large;
+    font-family: "Ancizar Sans", sans-serif;
+    font-size: 1.3em;
     text-align: left;
     max-width: 100%;
     width: 800px;
+}
+
+.box4 h1 {
+    font-family: "Cal Sans", sans-serif;
 }
 
 .maps{
@@ -354,6 +370,7 @@ body {
 
 
 footer {
+    font-family: "Ancizar Sans", sans-serif;
     background-color: #EEF1F6;
     color: #000000;
     padding: 0px;

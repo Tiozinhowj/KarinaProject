@@ -1,5 +1,4 @@
 function WhatsApp() {
-    // Duplicando as barras invertidas
     location.href = "https://wa.me//5527999709637";
 }
 
@@ -19,11 +18,11 @@ menuicon.onclick = function () {
 
 window.sr = ScrollReveal({ reset: false});
 
-sr.reveal('.box' ,{duration: 2500})
+sr.reveal('.box1' ,{duration: 2500})
+sr.reveal('.box2' ,{duration: 2500})
+sr.reveal('.box3' ,{duration: 2500})
+sr.reveal('.box4' ,{duration: 2500})
 sr.reveal('.indeximg' ,{duration: 6000} )
-sr.reveal('.box5' ,{duration: 2500})
 sr.reveal('.indeximg2' ,{duration: 6000} )
-sr.reveal('.box6' ,{duration: 2500})
 sr.reveal('.indeximg3' ,{duration: 6000} )
-sr.reveal('.container3title' ,{duration: 2500})
-sr.reveal('.container3' ,{duration: 6000} )
+sr.reveal('.maps' ,{duration: 5000} )

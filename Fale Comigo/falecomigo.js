@@ -1,5 +1,4 @@
 function WhatsApp() {
-    // Duplicando as barras invertidas
     location.href = "https://wa.me//5527999709637";
 }
 
